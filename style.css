@@ -1,4 +1,7 @@
 @charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
 /* ページ全体 */
 body{
 	background-color: #f0f4f8;
@@ -9,7 +12,7 @@ body{
 
 /* タイトル */
 h1{
-	color: #2c3e50;
+	color: #333333;
 	font-size: 40px;
 	margin-bottom: 30px;
 }
@@ -39,8 +42,25 @@ a{
 	transition: 0.3s;
 }
 
-/* マウスを乗せた時 */
-a:hover{
-	background-color: #2980b9;
-	transform: scale(1.05);
+.profile {
+	border: 2px solid skyblue;
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #f0f8ff;
+}
+
+.hobby {
+	border: 2px solid orange;
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #fff5e6;
+}
+.holiday {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+
+	background-color: #e8ffe8;
+	border: 2px solid green;
 }

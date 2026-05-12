@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* ページ全体 */
+body{
+	background-color: #f0f4f8;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/* タイトル */
+h1{
+	color: #2c3e50;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+/* 自己紹介文 */
+p{
+	width: 600px;
+	margin: auto;
+	font-size: 18px;
+	line-height: 2;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* リンク */
+a{
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	background-color: #3498db;
+	color: white;
+	padding: 12px 25px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: 0.3s;
+}
+
+/* マウスを乗せた時 */
+a:hover{
+	background-color: #2980b9;
+	transform: scale(1.05);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- 文字コードをUTF-8に設定 -->
+    <meta charset="UTF-8">
+
+    <!-- スマホ対応 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ブラウザのタブに表示されるタイトル -->
+    <title>プロフィール</title>
+
+    <style>
+        /* ページ全体の設定 */
+        body{
+            background-color: #f0f0f0; /* 背景色 */
+            font-family: Arial, sans-serif; /* 文字フォント */
+            margin: 0; /* 外側の余白を消す */
+            padding: 30px; /* 内側の余白 */
+        }
+
+        /* プロフィールカード部分 */
+        .profile-card{
+            width: 400px; /* 横幅 */
+            margin: auto; /* 中央寄せ */
+            background-color: white; /* 背景を白 */
+            padding: 20px; /* 内側余白 */
+            border-radius: 10px; /* 角を丸くする */
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); /* 影をつける */
+        }
+
+        /* 見出し */
+        h1{
+            text-align: center; /* 文字中央 */
+            color: #333; /* 文字色 */
+        }
+
+        /* 通常の文章 */
+        p{
+            font-size: 18px; /* 文字サイズ */
+            line-height: 1.8; /* 行間 */
+            color: #555;
+        }
+
+        /* ラベル部分 */
+        .label{
+            font-weight: bold; /* 太字 */
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- プロフィール全体の箱 -->
+    <div class="profile-card">
+
+        <!-- タイトル -->
+        <h1>プロフィール</h1>
+
+        <!-- 名前表示 -->
+        <p>
+            <span class="label">名前：</span>
+            宮﨑知也
+        </p>
+
+        <!-- 経歴表示 -->
+        <p>
+            <span class="label">経歴：</span>
+            入社1年目・未経験で入社
+        </p>
+
+        <!-- 自己紹介コメント -->
+        <p>
+            <span class="label">自己紹介：</span><br>
+
+            現在プログラミングを学習中です。<br>
+
+            SQLやJavaを中心に勉強しており、<br>
+            少しずつ理解できることが増えてきました。
+        </p>
+
+    </div>
+
+</body>
+</html>
